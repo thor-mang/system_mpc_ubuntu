@@ -1,5 +1,5 @@
 [Unit]
-Description=Thor Startup Script
+Description=Thor Motion Startup Script
 
 [Service]
 Type=simple
