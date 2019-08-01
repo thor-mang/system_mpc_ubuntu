@@ -2,5 +2,5 @@ SUBSYSTEMS=="usb", ATTRS{interface}=="USB-COM485 Plus4", ATTRS{bInterfaceNumber}
 SUBSYSTEMS=="usb", ATTRS{interface}=="USB-COM485 Plus4", ATTRS{bInterfaceNumber}=="01", GROUP="dialout", SYMLINK+="ttyCH1" 
 SUBSYSTEMS=="usb", ATTRS{interface}=="USB-COM485 Plus4", ATTRS{bInterfaceNumber}=="02", GROUP="dialout", SYMLINK+="ttyCH2" 
 SUBSYSTEMS=="usb", ATTRS{interface}=="USB-COM485 Plus4", ATTRS{bInterfaceNumber}=="03", GROUP="dialout", SYMLINK+="ttyCH3" 
-SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", GROUP="dialout", SYMLINK+="ttyCH4" 
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", GROUP="dialout", SYMLINK+="ttyCH4"
 ACTION=="add", SUBSYSTEM=="usb-serial", DRIVER=="ftdi_sio", ATTR{latency_timer}="1" 
